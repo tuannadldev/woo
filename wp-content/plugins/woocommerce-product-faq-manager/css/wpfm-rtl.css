@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* Description: RTL Support For WooCommerce Product FAQ Manager.
+    Created on : Mar 17, 2015, 10:47:34 PM
+    Author     : BlueWindLab
+*/
+
+div.bwl_acc_container {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+  clear: right;
+}
+
+div.bwl_acc_container .search_icon {
+  background-position: top 10px left 10px;
+}
+div.bwl_acc_container .load {
+  background-position: left 10px center;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<admin-texts>
+		<key name="wc_ppc_login_title" />
+		<key name="wc_ppc_password_form" />
+		<key name="wc_ppc_form_password_label" />
+		<key name="wc_ppc_form_button" />
+	</admin-texts>
+</wpml-config>

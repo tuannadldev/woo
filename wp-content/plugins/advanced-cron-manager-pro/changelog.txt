@@ -1,0 +1,46 @@
+= 2.3.6 =
+* [Changed] JavaScript hooks library which was conflicting with Gutenberg
+
+= 2.3.5 =
+* [Added] Event unscheduled trigger for Notification plugin
+* [Added] Event scheduled trigger for Notification plugin
+
+= 2.3.4 =
+* [Fixed] Wrong logs deletion on log limit
+
+= 2.3.3 =
+* [Fixed] Missing old plugin file error fix
+* [Changed] New notification trigger
+
+= 2.3.2 =
+* [Fixed] Log rows for particular Event, variables are not overwritten
+
+= 2.3.1 =
+* [Fixed] Obsolete AJAX function usage
+* [Fixed] Warning when memory usage cannot be expressed
+
+= 2.3.0 =
+* [Changed] Updated Composer libraries
+* [Changed] Proper compatibility with PHP 5.4
+
+= 2.2.1 =
+* [Added] Compatibility with PHP 5.3 with Dice library
+* [Changed] PHP 5.6 requirement to PHP 5.3
+
+= 2.2.0 =
+* [Changed] Updated Composer libraries
+* [Changed] Changed DI52 Container to Dice in own namespace
+
+= 2.1.1 =
+* [Changed] Requirements lib has been moved to Composer
+* [Changed] Better license management
+
+= 2.1.0 =
+* [Changed] Utilities classes has been moved to separate composer libraries
+* [Changed] Requirements checks
+* [Changed] date() function to date_i18n()
+
+= 2.0.0 =
+* [Changed] Entire codebase
+* [Added] Different type of loggers (errors, warnings, notices, performance)
+* [Added] Debugging tool

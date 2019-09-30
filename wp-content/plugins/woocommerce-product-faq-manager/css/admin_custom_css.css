@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2015, 10:42:57 AM
+    Author     : BlueWindLab
+*/
+
+.save_notification{
+    display: inline-block;
+    margin-right: 12px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.wpfm_sort{
+    border: 0px solid #FFFFFF;
+    background: url('../images/wpfm_faq_sort.png') no-repeat center center #FFFFFF;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+ul#bwpfm_fsa_items li{
+    
+    padding : 5px;
+    cursor : move;
+    font-size : 12px;
+    margin-bottom : 5px;
+    border : 1px solid #EBEBEB;
+    
+}
+
+ul#bwpfm_fsa_items li.wpfm_even_row{
+    background : #FFFF9D;
+}
+
+ul#bwpfm_fsa_items li.wpfm_odd_row{
+    background : #FFFFCC;
+}
+
+.wpfm-sort-highlight {
+    background-color: #fafafa;
+    border: 1px dashed red;
+    height: 32px;
+}

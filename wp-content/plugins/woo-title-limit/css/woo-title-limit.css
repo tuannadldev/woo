@@ -1,0 +1,7 @@
+#help-box{
+    display: none;
+    position: fixed;
+    top: 150px;
+    background-color: #fff;
+    right: 150px;
+}

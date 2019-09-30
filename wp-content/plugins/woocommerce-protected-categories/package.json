@@ -1,0 +1,47 @@
+{
+	"name": "woocommerce-protected-categories",
+	"version": "2.2.2",
+	"description": "WooCommerce Protected Categories plugin for WordPress.",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://barn2media@bitbucket.org/barn2media/woocommerce-password-protected-categories.git"
+	},
+	"keywords": [
+		"wordpress",
+		"woocommerce",
+		"password",
+		"protection",
+		"category"
+	],
+	"author": "Barn2 Media",
+	"license": "GPL-3.0",
+	"homepage": "https://bitbucket.org/barn2media/woocommerce-password-protected-categories#readme",
+	"devDependencies": {
+		"fs": "0.0.1-security",
+		"gulp": "^4.0.0",
+		"gulp-checktextdomain": "^2.2.0",
+		"gulp-clean-css": "^4.0.0",
+		"gulp-debug": "^4.0.0",
+		"gulp-header": "^2.0.7",
+		"gulp-jshint": "^2.1.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-replace": "^1.0.0",
+		"gulp-run": "^1.7.1",
+		"gulp-sftp": "^0.1.5",
+		"gulp-ssh": "^0.7.0",
+		"gulp-uglify": "^3.0.1",
+		"gulp-zip": "^4.2.0",
+		"jshint": "^2.9.7",
+		"natives": "^1.1.6",
+		"pump": "^3.0.0"
+	},
+	"dependencies": {
+		"npm": "^6.5.0",
+		"npm-check-updates": "^2.15.0",
+		"ssh2": "^0.7.1"
+	}
+}

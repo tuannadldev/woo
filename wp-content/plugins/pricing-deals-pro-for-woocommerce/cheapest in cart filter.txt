@@ -1,0 +1,41 @@
+------------------------------
+CHEAPEST DEALS OF *ANY* KIND!!
+------------------------------
+
+No Filter required any more!!
+
+
+EXAMPLE Buy 2 Get cheapest FREE:
+Blueprint Section
+Deal Applied in Catalog or Cart : Cart Purchase Discount
+Deal Type : Buy one Get one (Bogo)
+Deal Action : Buy Something, Discount *Next* Item
+Show Me : Advanced 
+Apply Discount to Cheapest Item First : Apply to Cheapest
+ 
+Buy Group Section
+Buy Group Filter : Category / Logged-in Role / Plugin Category 
+[your choice of category, etc]
+Buy Group Amount Type :  Buy Unit Quantity 
+Buy Group Amount Type Count : 2
+Buy Group Amount Applies To : All Products 
+Buy Rule Usage Count : unlimited
+ 
+Get Group Section
+Get Group Filter : [usually the *same group* as the Buy Group Filter, selected in the same way:] 
+    Category / Logged-in Role / Plugin Category 
+    [your choice of category, etc]
+Get Group Amount Type : Discount Next One (single unit)
+Get Group Repeat : none
+ 
+Discount Section
+Discount Amount Type : Free
+Discount Applies To : Each Product 
+etc ...
+
+
+   	TO GET A REPEATING DEAL,   Buy Rule Usage Count : [choose desired count, or UNLIMITED]
+
+***. PLEASE NOTE: --------------------------------------------------
+	Get Group Product Filter: Discount Group Same as Buy Group
+	******* May Not Be Used ! *****************

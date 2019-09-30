@@ -1,0 +1,21 @@
+{
+    "name": "underdev/advanced-cron-manager-pro",
+    "description": "Advanced Cron Manager PRO WordPress plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Kuba Mikita",
+            "email": "jakub@underdev.it"
+        }
+    ],
+    "require": {
+        "underdev/utils": "*",
+        "underdev/requirements": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "underDEV\\AdvancedCronManagerPRO\\" : "inc"
+        }
+    }
+}

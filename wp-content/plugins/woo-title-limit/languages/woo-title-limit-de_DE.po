@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-06-26 21:59+0200\n"
+"PO-Revision-Date: 2017-06-26 22:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: woo-title-limit.php\n"
+
+#: woo-title-limit.php:135
+msgid "Character limit shop page"
+msgstr "Produkttitel Limit in der Shop Ansicht"
+
+#: woo-title-limit.php:136
+msgid "Character limit"
+msgstr "Produkttitel Limit"
+
+#: woo-title-limit.php:137
+msgid "Character limit category page"
+msgstr "Produkttitel Limit in der Kategorie Ansicht"
+
+#: woo-title-limit.php:138
+msgid "Character limit product page"
+msgstr "Produkttitel Limit in der Produkt Ansicht"
+
+#: woo-title-limit.php:139
+msgid "Character limit home page"
+msgstr "Produkttitel Limit auf der Startseite"
+
+#: woo-title-limit.php:140
+msgid "Add \"...\" to title"
+msgstr "Füge \"...\" an das Ende des Titels hinzu."
+
+#: woo-title-limit.php:141
+msgid "Extra settings"
+msgstr "Weitere Einstellungen"
+
+#: woo-title-limit.php:142
+msgid "Limit product title for widgets automatically? (beta)"
+msgstr "Produkttitel in Widgets automatisch begrenzen? (Beta)"
+
+#: woo-title-limit.php:143
+msgid "Dont break words in title?"
+msgstr "Produkttitel am Wortende kürzen?"
+
+#: woo-title-limit.php:284
+msgid "Notice: WooCommerce isnt active or isnt installed."
+msgstr "Hinweis: Das Plugin WooCommerce ist nicht installiert oder nicht aktiviert."
+
+#: woo-title-limit.php:299 woo-title-limit.php:305 woo-title-limit.php:311
+#: woo-title-limit.php:317
+msgid "Set the limit for the product titles (amount of maximum characters)."
+msgstr "Setzt das Zeichenlimit für den Produkttitel."
+
+#: woo-title-limit.php:323
+msgid "Some more settings for product titles."
+msgstr "Weitere Einstellungen für Produkttitel."
+
+#~ msgid "Limit product title for widgets?"
+#~ msgstr "Produkttitel automatisch in Widgets begrenzen? (Beta)"
+
+#~ msgid "Widget settings"
+#~ msgstr "Widget Einstellungen"
+
+#~ msgid "Check if you want to automatically limit product title in widget."
+#~ msgstr "Setze die Checkbox wenn du möchtest, dass Produkttitel in WooCommerce Widgets automatisch begrenzt werden sollen."

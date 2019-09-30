@@ -1,0 +1,113 @@
+/*
+Theme Name: MyPham9 - MST40315
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
+@font-face {
+    font-family: 'iCielVAGRoundedNext';
+    font-display: block;
+    src: url('fonts/iCielVAGRoundedNext-Regular.eot'); /* IE9 Compat Modes */
+    src: local('iCielVAGRoundedNext'), url('fonts/iCielVAGRoundedNext-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/iCielVAGRoundedNext-Regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/iCielVAGRoundedNext-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/iCielVAGRoundedNext-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+*:not(.ab-icon):not(i):not(.star-rating span):not(.star-rating):not(.comment-form-rating a){
+    font-family: 'iCielVAGRoundedNext' !important;
+    font-display: block;
+}
+
+/*.comments-area{*/
+    /*display: none;*/
+/*}*/
+
+@media (max-width: 768px) {
+    #wrapper {overflow: hidden;}
+}
+
+.nav-dropdown>li.nav-dropdown-col, .nav-dropdown>li.image-column {
+    text-align: left;
+    display: table-cell;
+    white-space: nowrap;
+    width: 190px;
+    min-width: 190px;
+    border-right: 1px solid transparent;
+}
+
+.is-small, .is-small.button{
+    font-size:12px;
+}
+
+
+.payment-icon {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+    background: url(/images/progress.gif) center no-repeat;
+}
+
+.login-icon-loading {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    z-index: 9999;
+    left: 0;
+    top: -60px;
+    opacity: 0.7;
+    background: #fff url(/images/progress.gif) center no-repeat;
+}
+
+.deposit-option td{
+    border-bottom: none;
+}
+input#checkbox-deposit{
+    float: left;
+}
+.checkbox-deposit{
+    font-size: 18px;
+    padding: 15px 0px 15px 10px;
+    border: 1px #3e74e8 solid;
+}
+.checkbox-deposit label{
+    font-size: 18px;
+}
+span.not-logged{
+    font-size: 16px !important;
+
+    color: #777;
+    display: table;
+}
+span.user-logged{
+    display: table;
+}
+.not-validate{
+    opacity: 0.3; /* Standard compliant browsers */
+    -moz-opacity: 0.3; /* Firefox and Mozilla browsers */
+    -webkit-opacity: 0.3; /* WebKit browser e.g. Safari */
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+
+}
+
+div.em-not-logged{
+    font-weight: 400;
+    font-size: 16px !important;
+}
+

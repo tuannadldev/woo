@@ -1,0 +1,81 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fa129efddcb45ad80058bf1e8dc67076",
+    "packages": [
+        {
+            "name": "underdev/requirements",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kubitomakita/Requirements.git",
+                "reference": "98fe018df4815a64c86b3db55dd72d0fe3ab736e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kubitomakita/Requirements/zipball/98fe018df4815a64c86b3db55dd72d0fe3ab736e",
+                "reference": "98fe018df4815a64c86b3db55dd72d0fe3ab736e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "underDEV_Requirements.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Kuba Mikita",
+                    "email": "jakub@underdev.it"
+                }
+            ],
+            "description": "WordPress drop-in to check requirements",
+            "time": "2017-08-13T15:38:21+00:00"
+        },
+        {
+            "name": "underdev/utils",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kubitomakita/Utils.git",
+                "reference": "e1b34782ada7e43fc27dca1348b9ca373017bc20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kubitomakita/Utils/zipball/e1b34782ada7e43fc27dca1348b9ca373017bc20",
+                "reference": "e1b34782ada7e43fc27dca1348b9ca373017bc20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "underDEV\\Utils\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Kuba Mikita",
+                    "email": "jakub@underdev.it"
+                }
+            ],
+            "description": "WordPress utilities",
+            "time": "2017-08-13T15:34:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

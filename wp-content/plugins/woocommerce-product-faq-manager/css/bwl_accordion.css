@@ -1,0 +1,193 @@
+/*------------------------------ Define Varaibles ---------------------------------*/
+div.bwl_acc_container {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+}
+div.bwl_acc_container .accordion_search_container {
+    display: block;
+    margin: 0 0 12px 0;
+}
+div.bwl_acc_container .accordion_search_container #accordion_search_input_box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 5px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+div.bwl_acc_container #search_result_container {
+    line-height: 24px;
+    display: none;
+    background: #ddd;
+    color: #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 5px;
+    margin-bottom: 12px;
+}
+div.bwl_acc_container .search_icon {
+    background-origin: content-box;
+    background: url(../images/search.png) no-repeat;
+    background-position: top 10px right 10px;
+    background-position-x: 99%;
+    background-position-y: 50%;
+    border: 1px solid #CCCCCC;
+}
+div.bwl_acc_container .load {
+    background-image: url(../images/loader.gif);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+div.bwl_acc_container h2.acc_trigger {
+    padding: 0;
+    margin: 0 0 1px 0;
+    height: auto;
+    min-height: 46px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    background: #2c2c2c;
+}
+div.bwl_acc_container h2.acc_trigger a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 12px 6px 12px 12px;
+    outline: none;
+}
+div.bwl_acc_container h2.acc_trigger a:before {
+    content: "\f067";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+div.bwl_acc_container h2.acc_trigger a:hover {
+    color: #f0f0f0;
+}
+div.bwl_acc_container h2.acc_trigger a:hover:before {
+    content: "\f067";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+div.bwl_acc_container h2.active {
+    background: #006666;
+}
+div.bwl_acc_container h2.active a {
+    color: #f0f0f0;
+}
+div.bwl_acc_container h2.active a:before {
+    content: "\f068";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+div.bwl_acc_container h2.active a:hover {
+    color: #f0f0f0;
+}
+div.bwl_acc_container h2.active a:hover:before {
+    content: "\f068";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+div.bwl_acc_container .acc_container {
+    margin: 0 0 6px 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    background: #fafafa;
+    border: 1px solid #d6d6d6;
+    display: none;
+}
+div.bwl_acc_container .acc_container .block {
+    padding: 12px;
+}
+
+p.wpfm_no_faq{
+    font-size: 14px;
+}
+
+.highlight {
+    display: inline;
+    font-style: normal;
+    background: #FEF5CB;
+    color: #2C2C2C;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/***********************************************************************************************/
+/* RESPONSIVE STYLING */
+/***********************************************************************************************/
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+    div.bwl_acc_container h2.acc_trigger a:before ,
+    div.bwl_acc_container h2.acc_trigger a:hover:before ,
+    div.bwl_acc_container h2.active a:before ,
+    div.bwl_acc_container h2.active a:hover:before {
+        width: 14px;
+    }
+
+    div.bwl_acc_container h2.acc_trigger{
+
+        height: auto;
+        min-height: 24px;
+        line-height: 24px;
+
+    }
+
+    div.bwl_acc_container h2.acc_trigger a{
+        font-weight: bold;
+        font-size: 15px;
+        height: auto;
+        min-height: 24px;
+        line-height: 24px;
+        padding: 8px;
+
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+
+    div.bwl_acc_container h2.acc_trigger a:before ,
+    div.bwl_acc_container h2.acc_trigger a:hover:before ,
+    div.bwl_acc_container h2.active a:before ,
+    div.bwl_acc_container h2.active a:hover:before {
+        width: 12px;
+    }
+
+    div.bwl_acc_container h2.acc_trigger{
+
+        height: auto;
+        min-height: 24px;
+        line-height: 24px;
+
+    }
+
+    div.bwl_acc_container h2.acc_trigger a{
+        font-weight: normal;
+        font-size: 14px;
+        height: auto;
+        min-height: 24px;
+        line-height: 24px;
+        padding: 6px;
+
+    }
+
+}

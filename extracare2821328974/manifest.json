@@ -1,0 +1,17 @@
+{
+  "short_name": "Pharmacity",
+  "name": "Pharmacity Website",
+  "gcm_sender_id": "557862626718",
+  "gcm_user_visible_only": true,
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#0071BB",
+  "background_color": "#58A946"
+}

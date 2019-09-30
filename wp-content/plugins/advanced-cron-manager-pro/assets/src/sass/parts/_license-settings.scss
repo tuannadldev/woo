@@ -1,0 +1,31 @@
+#license-settings {
+	margin-top: 50px;
+
+	.tile-content {
+
+		.status {
+			margin-bottom: 10px;
+
+			&.valid {
+				color: green;
+			}
+
+			&.invalid,
+			&.disabled,
+			&.expired {
+				color: red;
+			}
+
+		}
+
+		#license-form {
+
+			.button-secondary {
+				margin: 8px 0;
+			}
+
+		}
+
+	}
+
+}

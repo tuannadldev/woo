@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: https://static.criteo.net/js/ld/ld.js
+
+Sitemap: https://www.pharmacity.vn/sitemap.xml

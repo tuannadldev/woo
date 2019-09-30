@@ -1,0 +1,231 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2016, 10:38:51 PM
+    Author     : BlueWindLab
+*/
+
+.wpfm_cmb_row{
+    
+}
+
+p.wpfm_cmb_row label{
+    width: 170px !important;
+    display: inline-block;
+    font-weight: bold;
+}
+
+p.wpfm_cmb_db label{
+    display: block !important;
+    width: 100% !important;
+    font-weight: bold;
+}
+
+p.wpfm_cmb_row input[type=text]{
+    width: 70%;
+    display: inline-block;
+}
+
+p.wpfm_cmb_row input[type=text].img-path{
+    width: 55%;
+    display: inline-block;
+}
+
+.wpfm_cmb_repeat_row span.label{
+    width: 80px !important;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.wpfm_cmb_repeat_row input[type=text], .wpfm_cmb_repeat_row textarea {
+    padding: 3px 5px;
+    width: 70%;
+    /*vertical-align: top;*/
+
+}
+
+.wpfm_cmb_repeat_row select {
+    
+    width: 70% !important;
+
+}
+.wpfm_cmb_repeat_row input[type=text]:focus, .wpfm_cmb_repeat_row textarea:focus {border: solid 1px #c2c2c2;}
+.wpfm_cmb_repeat_row select {
+    width: 270px;
+    
+}
+
+.wpfm_cmb_repeat_row {
+    background: #F9F9F9 none repeat scroll 0 0;
+    border: 1px solid #eee;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 0 5px;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    -webkit-transition: border 0.5s ease-out, background 0.5s ease 0.5s;
+    -moz-transition: border 0.5s ease-out, background 0.5s ease 0.5s;
+    -ms-transition: border 0.5s ease-out, background 0.5s ease 0.5s; /* IE10 is actually unprefixed */
+    -o-transition: border 0.5s ease-out, background 0.5s ease 0.5s;
+    transition: border 0.5s ease-out, background 0.5s ease 0.5s;
+}
+
+/*.wpfm_cmb_repeat_row .clear {height: 5px;}*/
+
+.bwl-cmb-sort-highlight {
+    background-color: #fdfdfd;
+    border: 1px dashed #eb644a;
+    height: 60px;
+}
+.delete_row {
+    background-color: #bb3415;
+    border: 1px solid #c93d1e;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    padding: 4px 8px 4px;
+    text-align: left;
+    text-shadow: 0 0 0 transparent,1px 1px 0 rgba(0,0,0,0.1);
+    -webkit-transition: border-color,0.3s;
+    -moz-transition: border-color,0.3s;
+    -o-transition: border-color,0.3s;
+    transition: border-color,0.3s;
+    opacity: 1;
+    position: relative;
+    display: inline-block;
+}
+.delete_row:hover {
+    color: #FFF;
+    opacity: .85;
+    }
+ 
+    .wpfm_cmb_repeat_field_container{
+        cursor: move;
+    }
+    
+.wpfm_cmb_repeat_field_container .delete_row {
+    position: absolute;
+    top: 13px;
+    right: 2px;
+}
+
+.wpfm_cmb_row_deleted{
+    background: #eb644a;
+}
+
+/*------------------------------  Repeatable FAQ Upload rows ---------------------------------*/
+
+.cont_wpfm_faq_type,
+.cont_wpfm_faq_title,
+.cont_wpfm_faq_details,
+.cont_wpfm_global_faqs{
+    vertical-align: top;
+    margin-bottom: 18px;
+    display: none;
+}
+
+.cont_wpfm_faq_type label,
+.cont_wpfm_faq_title label,
+.cont_wpfm_faq_details label,
+.cont_wpfm_global_faqs label{
+    display: inline-block;
+    width: 130px;
+    vertical-align: top !important;
+    font-weight: bold;
+    
+}
+
+/*------------------------------ New code for accordion ---------------------------------*/
+
+.wpfm_dn{
+    display: none;
+}
+
+.cmb_wpfm_title_container{
+    clear: both;
+    display: block;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+}
+
+.cmb_wpfm_post_title{
+    display: inline-block; text-align: left;
+    padding-right: 94px;
+}
+
+.cmb_wpfm_ctrl_btns{
+    display: inline-block; 
+    position: absolute; 
+    width: 84px; 
+    right: 2px;
+    top: 3px;
+}
+.cmb_wpfm_ctrl_btns a.wpfm_edit,
+.cmb_wpfm_ctrl_btns a.wpfm_delete,
+.cmb_wpfm_ctrl_btns a.wpfm_copy,
+.cmb_wpfm_ctrl_btns a{
+    text-decoration: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    /*background: #bb3415;*/
+    position: relative;
+    color: #FFFFFF !important;
+}
+
+.cmb_wpfm_ctrl_btns a.wpfm_edit:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../images/wpfm_edit.png') no-repeat center center transparent;
+}
+.cmb_wpfm_ctrl_btns a.wpfm_delete:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../images/wpfm_delete.png') no-repeat center center transparent;
+}
+.cmb_wpfm_ctrl_btns a.wpfm_copy:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../images/wpfm_copy.png') no-repeat center center transparent;
+}
+
+/*
+@keyframes animatedBird {
+    from { background-position: 20px 20px, 30px 80px, 0 0; }
+    to { background-position: 300px -90px, 30px 20px, 100% 0; }
+}
+
+.animate-area{ 
+    animation: animatedBird 4s linear infinite;
+}*/
+
+.wpfm_highlight{
+    background: #fffbcc !important;
+    border: 1px solid #00cc66;
+}

@@ -1,0 +1,655 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Faq Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 22:27+0600\n"
+"PO-Revision-Date: 2018-03-04 22:27+0600\n"
+"Last-Translator: Jorge Rodriguez\n"
+"Language-Team: Serra do Tucano\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../includes/bwpfm-custom-column.php:53
+msgid "Hidden"
+msgstr "Oculto"
+
+#: ../includes/bwpfm-custom-column.php:53
+msgid "Visible"
+msgstr "Visível"
+
+#: ../includes/bwpfm-custom-theme.php:361
+msgid "Nothing Found !"
+msgstr "Nada encontrado!"
+
+#: ../includes/bwpfm-custom-theme.php:362
+msgid "Item(s) Found!"
+msgstr "Itens encontrados!"
+
+#: ../includes/bwpfm-fsa-sorting.php:11
+msgid "Saving....."
+msgstr "Salvando..."
+
+#: ../includes/bwpfm-fsa-sorting.php:12
+msgid "Saved !"
+msgstr "Salvou!"
+
+#: ../includes/bwpfm-fsa-sorting.php:13
+msgid "Loading ....."
+msgstr "Carregando..."
+
+#: ../includes/bwpfm-fsa-sorting.php:14
+msgid "No FAQ Found!"
+msgstr "Nenhum FAQ encontrado!"
+
+#: ../includes/bwpfm-quick-edit.php:29 ../includes/bwpfm-quick-edit.php:124
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:722
+msgid "Hide FAQ Tab?"
+msgstr "Ocultar guia FAQ?"
+
+#: ../includes/bwpfm-quick-edit.php:31 ../includes/bwpfm-quick-edit.php:126
+msgid "- No Change -"
+msgstr "- Sem Alteração -"
+
+#: ../includes/bwpfm-quick-edit.php:32 ../includes/bwpfm-quick-edit.php:127
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:727
+msgid "Yes"
+msgstr "Sim"
+
+#: ../includes/bwpfm-quick-edit.php:33 ../includes/bwpfm-quick-edit.php:128
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:728
+msgid "No"
+msgstr "Não"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:32
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:260
+msgid "FAQ Type"
+msgstr "Tipo de FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:33
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:261
+msgid "FAQ Title"
+msgstr "FAQ Título"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:34
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:262
+msgid "FAQ Details"
+msgstr "Detalhes da FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:35
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:263
+#: ../woocommerce-product-faq-manager.php:337
+msgid "New FAQ"
+msgstr "Novas FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:36
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:264
+#: ../woocommerce-product-faq-manager.php:332
+#: ../woocommerce-product-faq-manager.php:338
+msgid "Global FAQs"
+msgstr "Perguntas frequentes globais"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:37
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:265
+msgid "Select FAQ"
+msgstr "Selecione FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:77
+msgid "FAQ Settings"
+msgstr "Configurações FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:422
+msgid "Edit"
+msgstr "Editar"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:423
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:424
+#: ../option-panel/admin-page-class/admin-page-class.php:1142
+#: ../option-panel/admin-page-class/admin-page-class.php:1851
+msgid "Delete"
+msgstr "Apagar"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:485
+msgid "Upload"
+msgstr ""
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:716
+msgid "BWL Woo FAQ Display & Theme Settings"
+msgstr "BWL Woo FAQ Exibição e Configurações de Tema"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:735
+#, fuzzy
+msgid "FAQ Theme"
+msgstr "Tipo de FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:791
+#, fuzzy
+msgid "BWL Woo FAQ Settings"
+msgstr "Configurações FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:797
+msgid "Add FAQ Questions"
+msgstr "Adicionar perguntas de FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:804
+#: ../woocommerce-product-faq-manager.php:334
+#: ../woocommerce-product-faq-manager.php:335
+msgid "Add New FAQ"
+msgstr "Adicionar novo FAQ"
+
+#: ../includes/wpfm-cmb-framework/wpfm-custom-meta-box.php:805
+msgid "File: "
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:403
+msgid "Allowed Files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:634
+#: ../option-panel/admin-page-class/admin-page-class.php:636
+msgid "Insert into Post"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:634
+msgid "Use this File"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:636
+msgid "Use this Image"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:668
+#: ../option-panel/admin-page-class/admin-page-class.php:767
+msgid "Save Changes"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:681
+msgid "Settings saved."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1142
+msgid "Delete this image"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1237
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1442
+#: ../option-panel/admin-page-class/admin-page-class.php:1487
+msgid "Remove"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1454
+msgid "Add"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1642
+#, fuzzy
+msgid "Select Files"
+msgstr "Selecione FAQ"
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1847
+msgid "Uploaded files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1858
+msgid "Upload new files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1864
+msgid "Add more files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1884
+#: ../option-panel/admin-page-class/admin-page-class.php:1917
+#, fuzzy
+msgid "Delete Image"
+msgstr "Apagar"
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1889
+#: ../option-panel/admin-page-class/admin-page-class.php:1922
+msgid "Upload Image"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1999
+#: ../option-panel/admin-page-class/admin-page-class.php:2025
+msgid "Select a color"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3255
+msgid "Export"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3256
+msgid ""
+"To export saved settings click the Export button bellow and you will get the "
+"export Code in the box bellow, which you can later use to import."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3258
+msgid "Export Code"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3260
+msgid "Get Export"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3265
+#: ../option-panel/admin-page-class/admin-page-class.php:3270
+msgid "Import"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3266
+msgid ""
+"To Import saved settings paste the Export output in to the Import Code box "
+"bellow and click Import."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3268
+msgid "Import Code"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3295
+msgid "error in ajax request! (1)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3305
+msgid "error in ajax request! (2)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3326
+msgid "error in ajax request! (3)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3338
+msgid "Setting imported, make sure you "
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3338
+msgid "Refresh this page"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3340
+msgid "Could not import settings! (4)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3361
+msgid "You do not have sufficient permissions to edit templates for this site."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3364
+msgid "Error Downloading file."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3386
+#: ../option-panel/admin-page-class/admin-page-class.php:3389
+msgid "Download Export"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3456
+msgid "Not Valid "
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3474
+msgid "Errors in saving changes"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3499
+msgid "Unkown Error"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:31
+msgid "Option Panel"
+msgstr "Painel de opções"
+
+#: ../option-panel/plugin-option-panel-settings.php:52
+#: ../option-panel/plugin-option-panel-settings.php:85
+msgid "General Options"
+msgstr "Opções gerais"
+
+#: ../option-panel/plugin-option-panel-settings.php:53
+#: ../option-panel/plugin-option-panel-settings.php:125
+msgid "Custom Themes"
+msgstr "Temas personalizados"
+
+#: ../option-panel/plugin-option-panel-settings.php:54
+msgid "Advance"
+msgstr "Advance"
+
+#: ../option-panel/plugin-option-panel-settings.php:63
+msgid "FAQ Form Settings"
+msgstr "Configurações do formulário de FAQ"
+
+#: ../option-panel/plugin-option-panel-settings.php:88
+msgid "Load Font Awesome?"
+msgstr "Load Font Awesome?"
+
+#: ../option-panel/plugin-option-panel-settings.php:88
+msgid "If your theme already loaded font-awesome.css, then turn it off."
+msgstr "Se o seu tema já carregou font-awesome.css, então desligue-o."
+
+#: ../option-panel/plugin-option-panel-settings.php:91
+msgid "FAQ Tab Title"
+msgstr "Título da guia de perguntas frequentes"
+
+#: ../option-panel/plugin-option-panel-settings.php:91
+#: ../woocommerce-product-faq-manager.php:237
+msgid "FAQ "
+msgstr "FAQ "
+
+#: ../option-panel/plugin-option-panel-settings.php:91
+#: ../option-panel/plugin-option-panel-settings.php:193
+msgid "You can change tab title in here."
+msgstr "Você pode alterar o título da guia aqui."
+
+#: ../option-panel/plugin-option-panel-settings.php:94
+msgid "Display FAQ Counter?"
+msgstr "Exibir contador de perguntas frequentes?"
+
+#: ../option-panel/plugin-option-panel-settings.php:94
+msgid "If you want to display faq counters in tab title then turn it on."
+msgstr "Se você quiser exibir contadores faq no título da guia, ligue-o."
+
+#: ../option-panel/plugin-option-panel-settings.php:97
+msgid "FAQ Tab Position"
+msgstr "Posição da guia de perguntas frequentes"
+
+#: ../option-panel/plugin-option-panel-settings.php:97
+msgid "Set number like- 1,2,3. Use big number to display FAQ tab last of tab."
+msgstr ""
+"Set number like- 1,2,3. Use o grande número para exibir a guia Perguntas "
+"frequentes na última guia."
+
+#: ../option-panel/plugin-option-panel-settings.php:100
+msgid "Minimum FAQ Items?"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:106
+msgid "Hide Search box? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:113
+msgid "Enable RTL Mode?"
+msgstr "Ativar o modo RTL?"
+
+#: ../option-panel/plugin-option-panel-settings.php:113
+msgid ""
+"Enable this option if you want display text from Right to Left. Useful "
+"options for Arabic language."
+msgstr ""
+"Ative esta opção se desejar exibir o texto de Direita para Esquerda. Opções "
+"úteis para a língua árabe."
+
+#: ../option-panel/plugin-option-panel-settings.php:128
+msgid "Click Plus(+) button to create new custom theme."
+msgstr "Clique no botão Plus (+) para criar um novo tema personalizado."
+
+#: ../option-panel/plugin-option-panel-settings.php:134
+msgid "Theme Title"
+msgstr "Título do Tema"
+
+#: ../option-panel/plugin-option-panel-settings.php:135
+msgid "Theme Unique Name"
+msgstr "Nome único do tema"
+
+#: ../option-panel/plugin-option-panel-settings.php:137
+msgid "Heading BG "
+msgstr "Título BG "
+
+#: ../option-panel/plugin-option-panel-settings.php:138
+msgid "Heading Text "
+msgstr "Texto do Título "
+
+#: ../option-panel/plugin-option-panel-settings.php:139
+msgid "Heading Active BG "
+msgstr "Título BG Ativo "
+
+#: ../option-panel/plugin-option-panel-settings.php:140
+msgid "Heading Active Text "
+msgstr "Título do texto ativo "
+
+#: ../option-panel/plugin-option-panel-settings.php:142
+msgid "Content BG "
+msgstr "Conteúdo BG "
+
+#: ../option-panel/plugin-option-panel-settings.php:143
+msgid "Content Text "
+msgstr "Conteúdo Texto "
+
+#: ../option-panel/plugin-option-panel-settings.php:144
+msgid "Search Highlights BG"
+msgstr "Pesquisar Destaques BG"
+
+#: ../option-panel/plugin-option-panel-settings.php:145
+msgid "Search Highlights Text "
+msgstr "Pesquisar Texto Destaque "
+
+#: ../option-panel/plugin-option-panel-settings.php:153
+msgid "Custom Theme Block"
+msgstr "Bloqueio de Tema Personalizado"
+
+#: ../option-panel/plugin-option-panel-settings.php:154
+msgid "You can create unlimited number of custom theme for FAQ accordion."
+msgstr ""
+"Você pode criar um número ilimitado de tema personalizado para acordeão de "
+"FAQ."
+
+#: ../option-panel/plugin-option-panel-settings.php:164
+msgid "Advance Setting"
+msgstr "Configuração Avançada"
+
+#: ../option-panel/plugin-option-panel-settings.php:166
+msgid "Custom CSS "
+msgstr "Custom CSS "
+
+#: ../option-panel/plugin-option-panel-settings.php:166
+msgid "You can write custom css code in here."
+msgstr "Você pode escrever o código css personalizado aqui."
+
+#: ../option-panel/plugin-option-panel-settings.php:169
+msgid "Auto Update Notification: "
+msgstr "Notificação de atualização automática: "
+
+#: ../option-panel/plugin-option-panel-settings.php:169
+msgid ""
+"If you enable this option then you will get notification while we release "
+"new version. <b style=\"color: #e32e31;\">We strongly recommend to take a "
+"backup of your language file/custom css code/custom scripts before applying "
+"updates.</b>"
+msgstr ""
+"Se você habilitar esta opção, você receberá uma notificação enquanto "
+"liberamos a nova versão. <b style = \\ \"color: # e32e31; \"> Recomendamos "
+"que você faça um backup do seu arquivo de idioma / código css "
+"personalizado / scripts personalizados antes de aplicar atualizações. </ b>"
+
+#: ../option-panel/plugin-option-panel-settings.php:190
+msgid "Ask A Question Settings"
+msgstr "Pergunte as configurações de uma pergunta"
+
+#: ../option-panel/plugin-option-panel-settings.php:193
+msgid "Ask Question Tab Title"
+msgstr "Título da Petição Pergunta"
+
+#: ../option-panel/plugin-option-panel-settings.php:193
+msgid "Ask A Question"
+msgstr "Faça uma pergunta"
+
+#: ../option-panel/plugin-option-panel-settings.php:196
+msgid "Ask Tab Position"
+msgstr "Ask Tab Position"
+
+#: ../option-panel/plugin-option-panel-settings.php:196
+msgid ""
+"Set any number like: 1,2,3. Use large number to display FAQ Ask TAB at last "
+"position and use zero to display at first position in tab menu."
+msgstr ""
+"Defina qualquer número como: 1,2,3. Use um grande número para exibir FAQ "
+"Pergunte ao TAB na última posição e use zero para exibir na primeira posição "
+"no menu de tabulação."
+
+#: ../option-panel/plugin-option-panel-settings.php:199
+msgid "FAQ Question Minimum Length"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:199
+msgid "Default: Minimum length 3 characters."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:202
+msgid "FAQ Question Maximum Length"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:202
+msgid "Default: Maximum length 100 characters."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:205
+msgid "Disable Captcha?"
+msgstr "Disable Captcha?"
+
+#: ../option-panel/plugin-option-panel-settings.php:205
+msgid "Trun it on, if you want to hide captcha section in FAQ form."
+msgstr ""
+"Trun it on, se você quiser ocultar a seção captcha no formulário de FAQ."
+
+#: ../option-panel/plugin-option-panel-settings.php:208
+msgid "Enable Login?"
+msgstr "Habilitar Login?"
+
+#: ../option-panel/plugin-option-panel-settings.php:211
+msgid "Disable Email Notification?"
+msgstr "Desativar notificação de e-mail?"
+
+#: ../option-panel/plugin-option-panel-settings.php:214
+msgid "Notification Email"
+msgstr "E-mail de notificação"
+
+#: ../option-panel/plugin-option-panel-settings.php:214
+msgid "Set custom email address to get new FAQ submit notification email."
+msgstr ""
+"Defina o endereço de e-mail personalizado para obter um novo e-mail de "
+"notificação de envio de FAQ."
+
+#: ../option-panel/plugin-option-panel-settings.php:217
+msgid "FAQ Question Form Extra Class"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:217
+msgid "You can set extra class for FAQ Question Form."
+msgstr ""
+
+#: ../option-panel/wpfm-addon.php:111
+msgid "Available Premium Add-ons"
+msgstr "Complementos Premium disponíveis"
+
+#: ../option-panel/wpfm-addon.php:156
+msgid "Installed"
+msgstr "Instalado"
+
+#: ../option-panel/wpfm-addon.php:160
+msgid "Install Now"
+msgstr "Instale agora"
+
+#: ../option-panel/wpfm-addon.php:165
+msgid "Demo"
+msgstr "Demonstração"
+
+#: ../option-panel/wpfm-admin-settings.php:13
+#: ../option-panel/wpfm-admin-settings.php:22
+msgid "About BWL Woo FAQ Manager"
+msgstr "Sobre o gerente de perguntas frequentes do BWL Woo"
+
+#: ../option-panel/wpfm-admin-settings.php:14
+msgid "Plugin Info"
+msgstr "Informação de Plugin"
+
+#: ../option-panel/wpfm-admin-settings.php:23
+msgid "Plugin Add-ons"
+msgstr "Plug-ins Complementos"
+
+#: ../shortcode/wpfm-shortcodes.php:14 ../shortcode/wpfm-shortcodes.php:50
+#: ../shortcode/wpfm-shortcodes.php:217
+#, fuzzy
+msgid "Search ..."
+msgstr "Pesquisar FAQs"
+
+#: ../shortcode/wpfm-shortcodes.php:161 ../shortcode/wpfm-shortcodes.php:291
+msgid "No FAQ Found"
+msgstr "Nenhum FAQ encontrado"
+
+#: ../woocommerce-product-faq-manager.php:74
+#, php-format
+msgid ""
+"<b>Recommendation: </b>Try <a href=\"http://codecanyon.net/item/faq-"
+"collector-addon-for-product-faq-manager/9992576?ref=xenioushk\" target="
+"\"_blank\">FAQ Collector - Addon For Product Faq Manager</a></b> to collect "
+"questions directly from users. <a href=\"%1$s\"  class=\"page-title-action\" "
+"style=\"position: relative; top: 1px;\"><strong>No Thanks</strong></a>"
+msgstr ""
+
+#: ../woocommerce-product-faq-manager.php:333
+msgid "Global FAQ"
+msgstr "Perguntas frequentes globais"
+
+#: ../woocommerce-product-faq-manager.php:336
+msgid "Edit FAQ"
+msgstr "Editar FAQ"
+
+#: ../woocommerce-product-faq-manager.php:339
+msgid "View FAQs"
+msgstr "Ver FAQs"
+
+#: ../woocommerce-product-faq-manager.php:340
+msgid "Search FAQs"
+msgstr "Pesquisar FAQs"
+
+#: ../woocommerce-product-faq-manager.php:341
+msgid "No FAQ found"
+msgstr "Nenhum FAQ encontrado"
+
+#: ../woocommerce-product-faq-manager.php:342
+msgid "No FAQs found in Trash"
+msgstr "Nenhuma FAQ encontrada na lixeira"
+
+#: ../woocommerce-product-faq-manager.php:344
+msgid "BWL Woo FAQ"
+msgstr "BWL Woo FAQ"
+
+#~ msgid "WooCommerce Product Faq Manager"
+#~ msgstr "WooCommerce Product Faq Manager"
+
+#~ msgid ""
+#~ "BWL WooCommerce Product Faq Manager provide you a great way to create "
+#~ "unlimited no of faq questions and answers for WooCommerce product. You "
+#~ "can easily add unlimited no of FAQ's in product tab. Super easy and "
+#~ "flexible interface gives you great user experience to create FAQ items."
+#~ msgstr ""
+#~ "BWL WooCommerce Product Faq Manager fornece uma ótima maneira de criar "
+#~ "perguntas ilimitadas de faq e respostas para o produto WooCommerce. Você "
+#~ "pode facilmente adicionar um número ilimitado de FAQ na guia do produto. "
+#~ "A interface super fácil e flexível oferece uma excelente experiência de "
+#~ "usuário para criar itens de FAQ."
+
+#~ msgid ""
+#~ "http://codecanyon.net/item/woocommerce-product-faq-manager/8011992?"
+#~ "ref=xenioushk"
+#~ msgstr ""
+#~ "http://codecanyon.net/item/woocommerce-product-faq-manager/8011992?"
+#~ "ref=xenioushk"
+
+#~ msgid "Md Mahbub Alam Khan"
+#~ msgstr "Md Mahbub Alam Khan"
+
+#~ msgid "http://www.bluewindlab.net"
+#~ msgstr "http://www.bluewindlab.net"

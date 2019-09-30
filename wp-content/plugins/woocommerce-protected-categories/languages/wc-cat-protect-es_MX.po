@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Password Protected Categories\n"
+"POT-Creation-Date: 2019-01-10 13:01+0000\n"
+"PO-Revision-Date: 2019-01-10 13:01+0000\n"
+"Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-protected-categories.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/license/EDD_SL_Plugin_Updater.php\n"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:44
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:59
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:133
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:194
+msgid "Visibility"
+msgstr "Visibilidad"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:143
+msgid "inherited"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:148
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:195
+msgid "Public"
+msgstr "Publico"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:151
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:196
+#, fuzzy
+#| msgctxt "protected category title"
+#| msgid "Protected: %s"
+msgid "Protected"
+msgstr "Protegido: %s"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:155
+#, fuzzy
+#| msgid "Password:"
+msgid "password"
+msgstr "Contraseña:"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:158
+msgid "user role"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:161
+msgid "user"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:166
+#, php-format
+msgctxt "protected visibility format"
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:169
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:261
+msgid "Private"
+msgstr "Privado:"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:196
+msgid ""
+"Protect the category by password, or restrict to specific roles or users. "
+"Its products and sub-categories will inherit the same protection."
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:198
+#, fuzzy
+#| msgctxt "protected category title"
+#| msgid "Protected: %s"
+msgid "Protect by:"
+msgstr "Protegido: %s"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:201
+msgid "Password protected"
+msgstr "Protegido con contraseña"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:208
+#, fuzzy
+#| msgid "Please enter a password."
+msgid "Enter password"
+msgstr "Ingrese una clave de acceso"
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:209
+msgid "Enter password&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:222
+msgid "User roles"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:224
+msgid "Select or search user roles&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:237
+msgid "Users"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:239
+msgid "Select or search users&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:252
+#, php-format
+msgctxt "user dropdown"
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-category-visibility.php:261
+msgid ""
+"Hide the category from everyone except users with access to private content "
+"(normally Administrators and Store Managers)."
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-general.php:28
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/admin/class-wc-ppc-admin-general.php:36
+#, fuzzy
+#| msgid "WooCommerce Password Protected Categories"
+msgid "View WooCommerce Protected Categories documentation"
+msgstr "WooCommerce categorías protegidas con contraseña "
+
+#: includes/admin/class-wc-ppc-admin-general.php:36
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/admin/class-wc-ppc-admin-general.php:54
+msgid "Are you sure you want to remove this password?"
+msgstr "¿Seguro que quieres eliminar esto?"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:39
+#: includes/admin/class-wc-ppc-admin-settings-page.php:51
+#, fuzzy
+#| msgid "Password Protected Categories"
+msgid "Protected categories"
+msgstr "Categorías protegidas con contraseña"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:53
+#, fuzzy
+#| msgid ""
+#| "The following options control the WooCommerce Password Protected "
+#| "Categories add-on."
+msgid ""
+"The following options control the WooCommerce Protected Categories extension."
+msgstr ""
+"Las siguientes opciones controlan las categorías protegidas con contraseña "
+"de  WooCommerce."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:57
+#, fuzzy
+#| msgid "License Key"
+msgid "License key"
+msgstr "Clave de licencia"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:62
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+"La clave de licencia está en su correo electrónico de confirmación de pedido."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:65
+#, fuzzy
+#| msgid "Category Visibility"
+msgid "Category visibility"
+msgstr "Visibilidad de la categoría"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:66
+#, fuzzy
+#| msgid "Show protected categories & products in public-facing store"
+msgid "Show protected categories & products in the public-facing store"
+msgstr ""
+"Mostrar categorías y productos protegidas en la tienda de cara al público"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:71
+#, fuzzy
+#| msgid ""
+#| "Tick to show protected products on the main shop page, category pages, "
+#| "archives, and in search results."
+msgid ""
+"Tick to show protected categories in public areas of your site (e.g. the "
+"shop page, category pages, sidebars and search results). Untick to hide them "
+"from public view."
+msgstr ""
+"Marque para mostrar productos protegidos en la Página principal de la "
+"tienda, páginas de categoría, archivos y en los resultados."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:72
+#, fuzzy
+#| msgid ""
+#| "Categories and products which have been 'unlocked' are always displayed, "
+#| "regardless of these options."
+msgid ""
+"Protected categories which have been 'unlocked' for the current user are "
+"always displayed."
+msgstr ""
+"Categorías y productos que han sido 'desbloqueados' se muestran siempre, "
+"independientemente de estas opciones."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:75
+#, fuzzy
+#| msgid "Show protected categories & products in navigation menus"
+msgid "Show protected categories & products in navigation menus"
+msgstr "Mostrar categorías y productos protegidas en el menu"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:82
+#, fuzzy
+#| msgid "Prefix names of protected categories"
+msgid "Prefix categories"
+msgstr "Prefijo de las categorías protegidas"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:83
+msgid "Prefix names of protected categories"
+msgstr "Prefijo de las categorías protegidas"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:84
+#, fuzzy
+#| msgid ""
+#| "Protected categories will be prefixed with \"Protected:\" or \"Private:\" "
+#| "on the category page, shop front, menus and widgets."
+msgid ""
+"Categories will be prefixed with \"Protected\" or \"Private\" on the "
+"category page, shop page, navigation menus and widgets."
+msgstr ""
+"Categorías protegidas llevarán el prefijo \"Protected:\" or \"Private:\" en "
+"la pagina de la categoría, tienda menú y widgets"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:93
+#, fuzzy
+#| msgid "Password Protected Categories"
+msgid "Private, user and role restricted categories"
+msgstr "Categorías protegidas con contraseña"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:95
+msgid ""
+"The following options apply to private categories and categories restricted "
+"to specific roles and users."
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:99
+msgid "When logged out"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:100
+msgid ""
+"What logged out users see when they try to access a category that is "
+"private, or protected by role or user."
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:104
+msgid "Show 404 error"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:105
+msgid "Show WordPress login page"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:106
+msgid "Show custom page"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:115
+msgid "Custom page"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:126
+#, fuzzy
+#| msgid "Password Protected Categories"
+msgid "Password protected categories"
+msgstr "Categorías protegidas con contraseña"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:128
+msgid ""
+"The following options apply to categories which are protected by a password."
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:132
+#, fuzzy
+#| msgid "Password protected"
+msgid "Password expiry"
+msgstr "Protegido con contraseña"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:133
+#, fuzzy
+#| msgid ""
+#| "How long a protected category remains unlocked after the user enters the "
+#| "correct password."
+msgid ""
+"How long a password protected category stays unlocked after the user enters "
+"the correct password."
+msgstr ""
+"Cómo durante mucho tiempo una categoría protegida permanece desbloqueado "
+"después el usuario introduce la contraseña correcta."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:139
+msgid "days"
+msgstr "dias"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:142
+#, fuzzy
+#| msgid "Password protected"
+msgid "Password entry page"
+msgstr "Protegido con contraseña"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:143
+msgid ""
+"Optional: set this if you want a central password entry page, where users "
+"can 'unlock' their category. You can also add a password form anywhere using "
+"the shortcode [category_login]."
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:150
+#, fuzzy
+#| msgid "Form Heading"
+msgid "Heading"
+msgstr "Encabezado del Formulario"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:151
+#, fuzzy
+#| msgid "Customise the wording displayed on the protected category form."
+msgid "The main heading displayed on the password entry page."
+msgstr ""
+"Personalizar el texto que aparece en el formulario de categoría protegida."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:154
+#: includes/class-wc-ppc-util.php:169
+msgid "Please Login"
+msgstr "Inicia la sesión"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:157
+#, fuzzy
+#| msgid "Form Message"
+msgid "Message"
+msgstr "Formulario de Mensaje"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:158
+#, fuzzy
+#| msgid "Customise the wording displayed on the protected category form."
+msgid ""
+"Customize the wording displayed on the password entry page, above the "
+"password box. You can use HTML."
+msgstr ""
+"Personalizar el texto que aparece en el formulario de categoría protegida."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:162
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+"Este contenido está protegido por contraseña. Para verla escribe la "
+"contraseña:"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:167
+#, fuzzy
+#| msgid "Password:"
+msgid "Password label"
+msgstr "Contraseña:"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:170
+msgid "The label shown next to the password box."
+msgstr "La etiqueta que se muestra junto al cuadro de contraseña."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:171
+#: includes/class-wc-ppc-password-form.php:89
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:174
+msgid "Use placeholder?"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:175
+#, fuzzy
+#| msgid "Use the label as a placeholder for the password input?"
+msgid "Use the label as a placeholder for the password input"
+msgstr ""
+"¿Use la etiqueta como un marcador de posición para la entrada de la "
+"contraseña?"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:180
+msgid "Login button"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:183
+#, fuzzy
+#| msgctxt "category password form"
+#| msgid "Login"
+msgctxt "category login form button"
+msgid "Login"
+msgstr "Login"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:186
+#, fuzzy
+#| msgid "Container Class"
+msgid "Password container class"
+msgstr "Contenedor de Clase"
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:187
+#, fuzzy
+#| msgid "Set a CSS class for the container that surrounds the password form."
+msgid ""
+"Advanced: enter a CSS class for the container that surrounds the password "
+"form."
+msgstr ""
+"Establecer una clase CSS para el contenedor que rodea la forma de la "
+"contraseña."
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:284
+msgid "Getting Started Guide"
+msgstr ""
+
+#: includes/admin/class-wc-ppc-admin-settings-page.php:285
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/class-wc-ppc-category-prefixer.php:83
+#, php-format
+msgctxt "private category title"
+msgid "Private: %s"
+msgstr "Privado %s"
+
+#: includes/class-wc-ppc-category-prefixer.php:86
+#, php-format
+msgctxt "protected category title"
+msgid "Protected: %s"
+msgstr "Protegido: %s"
+
+#: includes/class-wc-ppc-password-form.php:90
+msgctxt "category password form"
+msgid "Login"
+msgstr "Login"
+
+#: includes/class-wc-ppc-password-form.php:159
+msgid "Please enter a password."
+msgstr "Ingrese una clave de acceso"
+
+#: includes/class-wc-ppc-password-form.php:162
+#, fuzzy
+#| msgid "An error has occurred, please try again."
+msgid "Incorrect password, please try again."
+msgstr "Ha ocurrido un error. Por favor intente otra vez."
+
+#: includes/license/class-b2-plugin-license.php:146
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "La clave de licencia expiró el %s"
+
+#: includes/license/class-b2-plugin-license.php:150
+msgid "Your license key has been disabled."
+msgstr "La clave de licencia se ha desactivado."
+
+#: includes/license/class-b2-plugin-license.php:154
+msgid "Your license key is invalid."
+msgstr "La clave de licencia no es válida."
+
+#: includes/license/class-b2-plugin-license.php:158
+msgid "Your license is not active for this URL."
+msgstr "Su licencia no es activo para esta URL."
+
+#: includes/license/class-b2-plugin-license.php:161
+msgid "Your license key has reached its activation limit."
+msgstr "La clave de licencia ha alcanzado su límite de activaciones."
+
+#: includes/license/class-b2-plugin-license.php:164
+#: includes/license/class-b2-plugin-license.php:245
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error activating your license, please try again."
+msgstr ""
+"Se ha producido un error al guardar la clave de licencia, por favor intente "
+"de nuevo."
+
+#: includes/license/class-b2-plugin-license.php:233
+msgid "Please enter your license key."
+msgstr "Por favor, introduzca su clave de licencia."
+
+#: includes/license/class-b2-plugin-license.php:234
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: includes/license/class-b2-plugin-license.php:237
+msgid "License key successfully activated."
+msgstr "Clave de licencia activada correctamente."
+
+#: includes/license/class-b2-plugin-license.php:239
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key successfully deactivated. Click Save to reactivate."
+msgstr "Clave de licencia activada correctamente."
+
+#: includes/license/class-b2-plugin-license.php:241
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+"Se ha producido un error al guardar la clave de licencia, por favor intente "
+"de nuevo."
+
+#: includes/license/class-b2-plugin-license.php:310
+msgid "An error has occurred, please try again."
+msgstr "Ha ocurrido un error. Por favor intente otra vez."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "WooCommerce Password Protected Categories"
+msgid "WooCommerce Protected Categories"
+msgstr "WooCommerce categorías protegidas con contraseña "
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://barn2.co.uk/wordpress-plugins/woocommerce-password-protected-"
+"categories/"
+msgstr ""
+
+#. Description of the plugin/theme
+#, fuzzy
+#| msgid ""
+#| "Password protect your WooCommerce categories, or make them private and "
+#| "completely hidden."
+msgid ""
+"Protect your WooCommerce categories by password, user role or user account."
+msgstr ""
+"Protega sus categorías WooCommerce, o que sean privadas y completamente "
+"oculta."
+
+#. Author of the plugin/theme
+msgid "Barn2 Media"
+msgstr "Barn2 Media"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+#| msgid "http://barn2.co.uk"
+msgid "https://barn2.co.uk"
+msgstr "http://barn2.co.uk"
+
+#~ msgid "Password Protected Categories"
+#~ msgstr "Categorías protegidas con contraseña"
+
+#, fuzzy
+#~| msgid "Client Login Page"
+#~ msgid "Login page"
+#~ msgstr "Iniciar sesión"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this page to allow customers or clients to login to their category, "
+#~| "by using their own category password."
+#~ msgid ""
+#~ "Use this page to allow customers or clients to login to a category, using "
+#~ "their own category password."
+#~ msgstr ""
+#~ "Utilice esta página para permitir que los clientes o clientes acceder a "
+#~ "su categoría, usando su propia contraseña de categoría."
+
+#, fuzzy
+#~| msgctxt "category password form"
+#~| msgid "Login"
+#~ msgid "Login Form"
+#~ msgstr "Login"
+
+#~ msgid ""
+#~ "Use the settings below to customise the login form displayed when the "
+#~ "category is password protected."
+#~ msgstr ""
+#~ "Utilice la siguiente configuración para personalizar el formulario de "
+#~ "login que aparece cuando la categoría está protegido con contraseña."
+
+#, fuzzy
+#~| msgid "Display Method"
+#~ msgid "Display method"
+#~ msgstr "Método de Visualización"
+
+#, fuzzy
+#~| msgid ""
+#~| "Only change this if your are having problems with the display of the "
+#~| "form in your theme."
+#~ msgid ""
+#~ "Change this if your are having problems with the display of the login "
+#~ "form."
+#~ msgstr ""
+#~ "Sólo cambia este si está teniendo problemas con la visualización de la "
+#~ "forma en tu tema."
+
+#~ msgid "Standard"
+#~ msgstr "Estándar"
+
+#~ msgid "Alternate"
+#~ msgstr "Alternativo"
+
+#~ msgid "Category Prefix"
+#~ msgstr "Prefijo de la categoría"
+
+#~ msgid "Password Form"
+#~ msgstr "contraseña"
+
+#~ msgid "Button Text"
+#~ msgstr "Texto del botón"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentación"
+
+#~ msgid "Get Support"
+#~ msgstr "Obtener asistencia técnica"
+
+#, fuzzy
+#~| msgid "WooCommerce Password Protected Categories"
+#~ msgid "Get help with WooCommerce Password Protected Categories"
+#~ msgstr "WooCommerce categorías protegidas con contraseña "
+
+#~ msgid "Support"
+#~ msgstr "Soporte"
+
+#~ msgctxt "license key error message"
+#~ msgid "Error: %s"
+#~ msgstr "Error: %s"

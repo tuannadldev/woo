@@ -1,0 +1,428 @@
+.devvn_option_2col, .devvn_option_2col *,
+.devvn_option_1col, .devvn_option_1col * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ghn_all_state_checkbox:after,
+.devvn_option_2col:after,
+.devvn_option_1col:after,
+.ghn_customer_infor:after,
+.ghn_customer_row:after,
+.ghn_all_goicuoc:after,
+.ghn_all_goicuoc_list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dwas_table table#flat_rate_boxes input, table#flat_rate_boxes select {
+    width: 100%
+}
+
+.dwas_table table#flat_rate_boxes td.sort_dwas_td {
+    cursor: move
+}
+
+.dwas_table table#flat_rate_boxes td, table#flat_rate_boxes th {
+    padding: 15px 10px;
+    vertical-align: top;
+    background: #fff
+}
+
+.dwas_table table#flat_rate_boxes tr:nth-child(even) td {
+    background: #fafafa
+}
+
+.dwas_table table#flat_rate_boxes .check-column {
+    width: 24px;
+    min-width: 24px !important;
+    text-align: center;
+    padding: 15px 10px
+}
+
+.dwas_table table#flat_rate_boxes .check-column input {
+    width: auto;
+    vertical-align: middle;
+    margin: 0
+}
+
+.dwas_table table#flat_rate_boxes .district_shipping_advance input[type="checkbox"] {
+    width: auto;
+}
+
+.district_shipping_advance {
+    margin: 5px 0 0;
+}
+
+.district_shipping_advance .dwas_price_list {
+    font-size: 11px;
+    padding: 2px 0;
+}
+
+.dwas_hidden {
+    display: none !important;
+}
+
+.dwas_show {
+    display: block !important;
+}
+
+.dwas_price_list {
+    display: table;
+    vertical-align: top;
+    width: 100%;
+}
+
+.dwas_price_list_tr {
+    display: table-row;
+}
+
+.dwas_price_list_td {
+    display: table-cell;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.dwas_price_list_tfoot {
+    text-align: right;
+}
+
+a.dwas_delete_condition {
+    line-height: 26px;
+    font-size: 19px;
+    padding-left: 5px;
+}
+
+.all_condition_district, .all_condition_district_w {
+    max-width: 826px;
+}
+
+.district_shipping_advance.all_condition_district,
+.district_shipping_advance.all_condition_district_w {
+    position: relative;
+}
+
+.district_shipping_advance.all_condition_district.loading:before,
+.district_shipping_advance.all_condition_district_w.loading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.all_condition_district .dwas_price_list_tfoot a,
+.all_condition_district_w .dwas_price_list_tfoot a {
+    display: inline-block;
+    padding: 5px 12px;
+    background: #0085ba;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.all_condition_district .dwas_price_list_tfoot,
+.all_condition_district_w .dwas_price_list_tfoot {
+    margin: 10px 0 0;
+}
+
+.all_condition_district a,
+.all_condition_district_w a {
+    text-decoration: none;
+}
+
+.sort_dwas_td {
+    text-align: center;
+}
+
+.icon_sort_dwas:before {
+    content: '\f333';
+    font-family: Dashicons;
+    text-align: center;
+    color: #999;
+    display: inline-block;
+    height: 100%;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+table.form-table.dwas_table #flat_rate_boxes .chosen_select {
+    width: 300px;
+    max-width: 100%;
+}
+
+.woocommerce table.form-table.dwas_table #flat_rate_boxes .select2-container {
+    min-width: inherit !important;
+}
+
+.dwas_table table#flat_rate_boxes .district_shipping_disable input {
+    width: auto;
+}
+
+.district_shipping_advance_weight input.shipping_advance_w {
+    width: auto !important;
+}
+
+.district_shipping_advance.all_condition_district .dwas_price_list.dwas_show,
+.district_shipping_advance.all_condition_district_w .dwas_price_list.dwas_show {
+    display: table !important;
+    width: 100%;
+}
+
+.dwas_price_list_td select {
+    padding: 0 !important;
+    height: 33px;
+}
+
+#order_data .order_data_column p.form-field._billing_address_1_field,
+#order_data .order_data_column .form-field._shipping_address_1_field {
+    width: 100%;
+}
+
+.post-type-shop_order .select2-container .select2-search__field {
+    min-width: inherit;
+}
+
+.devvn_vietnam_shipping_wrap input[type="text"],
+.devvn_vietnam_shipping_wrap input[type="password"] {
+    width: 100%;
+    max-width: 500px;
+}
+
+.vn_shipping_hidden {
+    display: none;
+}
+
+.vnshipping_loading {
+    position: relative;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.vnshipping_loading:after {
+    -webkit-animation: devvn_spin_pro 500ms infinite linear;
+    animation: devvn_spin_pro 500ms infinite linear;
+    border: 2px solid #9E9E9E;
+    border-radius: 32px;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    content: "";
+    display: block;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 16px;
+}
+
+.vnshipping_loading:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: inherit !important;
+    z-index: 2;
+}
+
+@-webkit-keyframes devvn_spin_pro {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes devvn_spin_pro {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.devvn_vietnam_shipping_wrap ul.subsubsub {
+    margin: 0 0 10px 0;
+}
+
+.devvn_option_2col,
+.devvn_option_1col {
+    margin: 0 -10px 0 -10px;
+}
+
+.devvn_option_2col .devvn_option_col,
+.devvn_option_1col .devvn_option_col {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+}
+
+.devvn_option_1col .devvn_option_col {
+    width: 100%;
+}
+
+.devvn-nav-tab-wrapper {
+    margin-bottom: 20px !important;
+}
+
+.devvn_option_2col .devvn_option_col:nth-child(2n+1) {
+    clear: both;
+}
+
+@media (max-width: 767px) {
+    .devvn_option_2col .devvn_option_col {
+        width: 100%;
+    }
+}
+
+.devvn_option_box h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.devvn_hubs_table h2 {
+    float: left;
+}
+
+a.khuvuc_banhang {
+    float: right;
+}
+
+.ghn_all_state_checkbox_item {
+    width: 25%;
+    float: left;
+}
+
+table.devvn_hubs_table {
+    border-collapse: collapse;
+}
+
+table.devvn_hubs_table td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+.list_all_service label, .list_all_service_extra label {
+    display: inline-block;
+    margin: 0 0 3px;
+}
+
+.creat_order_wrap {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devvn_creat_order_table h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.mfp-bg {
+    z-index: 999999;
+}
+
+.mfp-wrap {
+    z-index: 99999999;
+}
+
+.devvn_float_right {
+    float: right;
+}
+
+.devvn_vtpost_creat_order, .devvn_vtpost_update_order {
+    margin: 0 0 0 10px !important;
+}
+
+.vtpost_msg {
+    float: left;
+}
+
+.devvn_creat_order_table select {
+    width: 100%;
+}
+
+.devvn_creat_order_label {
+    width: 130px;
+    display: table-cell;
+    vertical-align: top;
+    font-weight: 500;
+    padding: 3px 5px;
+}
+
+.devvn_creat_order_input_box {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.title_box {
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.devvn_creat_order_input_box:nth-child(2n) {
+    background: #f9f9f9;
+}
+
+.devvn_creat_order_input {
+    padding: 3px 5px;
+}
+
+.devvn_creat_order_input input[type="number"] {
+    height: 24px;
+    width: 80px;
+}
+
+.devvn_creat_order_input.devvn_creat_order_input_inline {
+    white-space: nowrap;
+}
+
+.devvn_creat_order_input.devvn_creat_order_input_inline input {
+    width: 60px;
+}
+
+.devvn_creat_order_input .list_all_service_extra label {
+    float: left;
+    margin: 0 10px 3px 0;
+}
+
+.devvn_creat_order_input textarea {
+    width: 100%;
+}
+
+div#service_id_list label {
+    display: block;
+    margin: 0 0 3px 0;
+}
+
+.devvn_creat_order_table input[type="text"] {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .ghn_all_state_checkbox_item {
+        width: 33.333%;
+    }
+}
